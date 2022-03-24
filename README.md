@@ -1,29 +1,31 @@
 # Next.js + Tailwind CSS Example
 
-This example shows how to build a Full Stack NFT minting Dapp using Hardhat, ethers.js, Next.js and TailwindCSS. It follows the steps outlined in the official (https://metaschool.so/articles/build-full-stack-nft-minting-dapp/).
+This example shows how to build a Full Stack NFT minting Dapp using Hardhat, ethers.js, Next.js and TailwindCSS. It follows the steps outlined in the official [open in Metaschool](https://metaschool.so/articles/build-full-stack-nft-minting-dapp/).
 
-## Preview
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+Try running some of the following tasks:
 
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Prerequisites
+In order to build a full stack NFT minting dapp and be successful in this guide, you must have the following:
+
+Node.js installed on your machine
+Metamask wallet extension installed as a browser extension.
+New to all this, learn here to set up your MetaMask account.
+
+Resources
+Solidity docs
+Solidity by example: An introduction to Solidity with simple examples
+
+
 # client
