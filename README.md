@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS Example
+# FULL STACK NFT MINTING DAPP
 
 This example shows how to build a Full Stack NFT minting Dapp using Hardhat, ethers.js, Next.js and TailwindCSS. It follows the steps outlined in the official [open in Metaschool](https://metaschool.so/articles/build-full-stack-nft-minting-dapp/).
 
