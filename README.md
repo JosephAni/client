@@ -1,4 +1,4 @@
-# FULL STACK NFT MINTING DAPP
+# Full Stack Nft Minting DApp
 
 This example shows how to build a Full Stack NFT minting Dapp using Hardhat, ethers.js, Next.js and TailwindCSS. It follows the steps outlined in the official [open in Metaschool](https://metaschool.so/articles/build-full-stack-nft-minting-dapp/).
 
