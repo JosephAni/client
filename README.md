@@ -17,6 +17,7 @@ npx hardhat help
 ```
 
 ## Prerequisites
+
 In order to build a full stack NFT minting dapp and be successful in this guide, you must have the following:
 
 Node.js installed on your machine
@@ -27,6 +28,6 @@ Resources
 Solidity docs
 Solidity by example: An introduction to Solidity with simple examples
 
-
-
 # client
+
+- Run 'npm run dev' to start the app

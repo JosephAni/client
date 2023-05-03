@@ -46,13 +46,13 @@ const mint = () => {
       let chainId = await ethereum.request({ method: 'eth_chainId' })
       console.log('Connected to chain:' + chainId)
 
-      const rinkebyChainId = '0x4'
+      const goerliChainId = '0x5'
 
       const devChainId = 1337
       const localhostChainId = `0x${Number(devChainId).toString(16)}`
 
-      if (chainId !== rinkebyChainId && chainId !== localhostChainId) {
-        alert('You are not connected to the Rinkeby Testnet!')
+      if (chainId !== goerliChainId && chainId !== localhostChainId) {
+        alert('You are not connected to the Goerli Testnet!')
         return
       }
 
@@ -71,12 +71,12 @@ const mint = () => {
     let chainId = await ethereum.request({ method: 'eth_chainId' })
     console.log('Connected to chain:' + chainId)
 
-    const rinkebyChainId = '0x4'
+    const goerliChainId = '0x5'
 
     const devChainId = 1337
     const localhostChainId = `0x${Number(devChainId).toString(16)}`
 
-    if (chainId !== rinkebyChainId && chainId !== localhostChainId) {
+    if (chainId !== goerliChainId && chainId !== localhostChainId) {
       setCorrectNetwork(false)
     } else {
       setCorrectNetwork(true)
@@ -114,7 +114,7 @@ const mint = () => {
         let tokenId = value.toNumber()
 
         console.log(
-          `Mined, see transaction: https://rinkeby.etherscan.io/tx/${nftTx.hash}`
+          `Mined, see transaction: https://goerli.etherscan.io/tx/${nftTx.hash}`
         )
 
         getMintedNFT(tokenId)
@@ -189,7 +189,7 @@ const mint = () => {
       ) : (
         <div className="mb-20 flex flex-col items-center justify-center gap-y-3 text-2xl font-bold">
           <div>----------------------------------------</div>
-          <div>Please connect to the Rinkeby Testnet</div>
+          <div>Please connect to the Goerli Testnet</div>
           <div>and reload the page</div>
           <div>----------------------------------------</div>
         </div>
@@ -197,7 +197,7 @@ const mint = () => {
 
       <div className="mb-20 mt-4 text-xl font-semibold">
         <a
-          href={`https://rinkeby.rarible.com/collection/${nftContractAddress}`}
+          href={`https://goerli.rarible.com/collection/${nftContractAddress}`}
           target="_blank"
         >
           <span className="hover:underline hover:underline-offset-8 ">
